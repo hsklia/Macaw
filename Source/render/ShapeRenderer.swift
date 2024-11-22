@@ -4,6 +4,7 @@ import Foundation
 import UIKit
 #elseif os(OSX)
 import AppKit
+import CoreGraphics
 #endif
 
 class ShapeRenderer: NodeRenderer {

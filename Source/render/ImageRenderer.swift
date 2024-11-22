@@ -2,6 +2,7 @@ import Foundation
 
 #if os(OSX)
 import AppKit
+import CoreGraphics
 #endif
 
 #if os(iOS)
