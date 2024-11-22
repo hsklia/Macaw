@@ -4,6 +4,11 @@ import Foundation
 import UIKit
 #endif
 
+#if os(macOS)
+import AppKit
+import CoreGraphics
+#endif
+
 class RenderContext {
     weak var view: DrawingView?
     var cgContext: CGContext?
